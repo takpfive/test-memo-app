@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>テストメモアプリ</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>テストメモアプリ</h1>
+      <form id="memo-form" class="memo-form">
+        <input id="memo-input" type="text" placeholder="メモを入力" maxlength="120" required />
+        <button type="submit">追加</button>
+      </form>
+
+      <ul id="memo-list" class="memo-list"></ul>
+      <p id="empty" class="empty">まだメモがありません。</p>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
